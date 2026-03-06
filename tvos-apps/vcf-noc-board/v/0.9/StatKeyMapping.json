@@ -1,0 +1,38 @@
+{
+    "summary|workload_cpu_percentage": {
+        "name": "CPU Usage",
+        "icon": "cpu",
+        "unit": "percent",
+        "widgetType": "gauge"
+    },
+    "summary|workload_mem_percentage": {
+        "name": "Memory Usage",
+        "icon": "memorychip",
+        "unit": "percent",
+        "widgetType": "gauge"
+    },
+    "summary|workload_storage_percentage": {
+        "name": "Disk Usage",
+        "icon": "internaldrive",
+        "unit": "percent",
+        "widgetType": "gauge"
+    },
+    "cpu|timeRemaining_days": {
+        "name": "CPU Runway",
+        "icon": "cpu",
+        "unit": "days",
+        "widgetType": "timeRemaining"
+    },
+    "mem|timeRemaining_days": {
+        "name": "Memory Runway",
+        "icon": "memorychip",
+        "unit": "days",
+        "widgetType": "timeRemaining"
+    },
+    "diskspace|timeRemaining_days": {
+        "name": "Disk Runway",
+        "icon": "internaldrive",
+        "unit": "days",
+        "widgetType": "timeRemaining"
+    }
+}
